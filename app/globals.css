@@ -20,6 +20,7 @@
   --color-secondary-container: #d7e4f0;
   --color-on-secondary-container: #3c4851;
   --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
 }
 
 /* Police Inter, chargée dans layout.js */

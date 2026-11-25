@@ -26,6 +26,9 @@ function estActif(pathname, href, aussi) {
 export default function BottomNav() {
   const pathname = usePathname();
 
+  // Pas de navigation publique dans l’espace admin
+  if (pathname.startsWith("/admin")) return null;
+
   return (
     <nav
       aria-label="Navigation principale"
